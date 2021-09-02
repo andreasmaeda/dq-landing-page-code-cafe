@@ -17,3 +17,16 @@ body {
  .cabecalho .logo h1 {
      font-size: 0;
 }
+
+.cabecalho nav {
+     display: inline-block;
+}
+
+ .cabecalho ul li {
+      display: inline-block;
+      padding: 15px;
+ }
+
+ .cabecalho ul li a:hover {
+      font-weight: bold;
+ }
