@@ -10,7 +10,22 @@
 }
 
 @media (max-width: 768px) {
+     .contato {
+          background-image: none;
+          background-color: #D3AE71;
+     }
+     
+     .contato .texto {
+          position: relative;
+          text-align: center;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+     }
 
+     .contato h2 {
+          margin-bottom: 46px;
+     }
 }
 
 @media (max-width: 720px) {
