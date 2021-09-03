@@ -129,3 +129,27 @@ body {
      top: 30%;
      left: 50%;
 }
+
+.rodape {
+     background: url(../images/fundo-rodape.jpg) center center no-repeat;
+     padding: 35px 30px;
+     background-size: cover;
+}
+
+.rodape ul {
+     margin-top: 30px;
+     float: right;
+}
+
+.rodape ul li {
+     display: inline-block;
+     padding: 15px;
+}
+
+.rodape ul li a {
+     color: white;
+}
+
+.rodape ul li a:hover {
+     font-weight: bold;
+}
