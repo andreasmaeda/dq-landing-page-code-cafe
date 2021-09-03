@@ -41,20 +41,34 @@
 
      .rodape {
           text-align: center;
+          background-image: none;
+          background-color: black;
      }
      
      .rodape .logo {
           display: block;
+          margin-bottom: 122px;
      }
 
      .rodape ul {
           display: block;
           width: 100%;
+          margin-bottom: 122px;
      }
 
      .rodape ul li {
           display: block;
           
+     }
+
+     .rodape ul li a{
+          font-size: 2rem;
+          
+     }
+
+     .rodape .redes-sociais {
+          float: none;
+          margin-bottom: 28px;
      }
      
 }
