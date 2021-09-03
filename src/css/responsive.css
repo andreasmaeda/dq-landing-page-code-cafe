@@ -34,12 +34,27 @@
           width: 100%;
      }
 
-     .ladrilho .pequeno {
+     .ladrilho .pequeno, 
+     .ladrilho .pequeno.grao {
           width: 50%;
      }
 
-     .ladrilho .pequeno.grao {
-          width: 50%;
+     .rodape {
+          text-align: center;
+     }
+     
+     .rodape .logo {
+          display: block;
+     }
+
+     .rodape ul {
+          display: block;
+          width: 100%;
+     }
+
+     .rodape ul li {
+          display: block;
+          
      }
      
 }
