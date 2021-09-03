@@ -26,4 +26,8 @@
           width: 100%;
           display: block;
      }
+
+     .painel h2 {
+          font-size: 2.5rem;
+     }
 }
