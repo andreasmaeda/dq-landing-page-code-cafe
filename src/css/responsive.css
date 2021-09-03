@@ -13,6 +13,22 @@
 
 }
 
+@media (max-width: 720px) {
+     .ladrilho .grande, 
+     .ladrilho .medio {
+          width: 100%;
+     }
+
+     .ladrilho .pequeno {
+          width: 50%;
+     }
+
+     .ladrilho .pequeno.grao {
+          width: 50%;
+     }
+     
+}
+
 @media (max-width: 425px) {
      .cabecalho .logo {
           display: block;
@@ -45,5 +61,11 @@
      .secao-com-texto.onde-estamos p {
           font-size: 2rem;
      }
+}
 
+@media (max-width: 375px) {
+     .ladrilho .pequeno, 
+     .ladrilho .pequeno.grao {
+          width: 100%;
+     }
 }
