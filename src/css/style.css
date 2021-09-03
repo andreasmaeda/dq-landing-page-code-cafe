@@ -153,3 +153,8 @@ body {
 .rodape ul li a:hover {
      font-weight: bold;
 }
+
+.rodape .copyright {
+     color: white;
+     margin-top: 40px;
+}
