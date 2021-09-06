@@ -136,31 +136,46 @@ body {
      left: 50%;
 }
 
-.rodape {
+.rodape{
      background: url(../images/fundo-rodape.jpg) center center no-repeat;
      padding: 35px 30px;
      background-size: cover;
-}
-
-.rodape ul {
-     margin-top: 30px;
+ }
+ 
+ .rodape ul {
      float: right;
-}
-
-.rodape ul li {
+     margin-top: 30px;
+ }
+ 
+ .rodape ul li {    
      display: inline-block;
      padding: 15px;
-}
-
-.rodape ul li a {
+ }
+ 
+ .rodape ul li a {
      color: white;
-}
-
-.rodape ul li a:hover {
+ }
+ 
+ .rodape ul li a:hover {
      font-weight: bold;
-}
-
-.rodape .copyright {
-     color: white;
+ }
+ 
+ .rodape .copyright {
+     color: white;    
+ }
+ 
+ .rodape .redes-sociais .facebook,
+ .rodape .redes-sociais .instagram {
+     width: 20px;
+     height: 20px;
+     margin: 10px;
+ }
+ 
+ .rodape .redes-sociais {
+     float: right;
+     clear: both;
+ }
+ 
+ .rodape .conteudo-de-baixo {
      margin-top: 40px;
-}
+ }
